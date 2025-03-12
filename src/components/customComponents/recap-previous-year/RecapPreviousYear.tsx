@@ -135,8 +135,8 @@ export default function RecapPreviousYear() {
             allowFullScreen
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-2 sm:p-6">
-            <h3 className="text-sm sm:text-2xl font-bold text-white">{event.title}</h3>
+          <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent flex flex-col justify-end p-2 sm:p-6">
+            <h3 className="text-sm sm:text-2xl font-bold text-black">{event.title}</h3>
             <p className="text-xs sm:text-xl font-semibold text-red-400">{event.location}</p>
           </div>
           <Button
@@ -155,13 +155,13 @@ export default function RecapPreviousYear() {
   );
 
   return (
-    <div className="bg-black py-4 sm:py-8">
+    <div className="bg-white py-4 sm:py-8">
       <div className="container mx-auto max-w-6xl px-2 sm:px-4 py-6 sm:py-12 space-y-4 sm:space-y-8">
         {/* Main Video Section */}
         <div className="relative overflow-hidden rounded-lg shadow-2xl">
           {renderMainVideo()}
 
-          <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent p-4 sm:p-8 flex flex-col justify-between pointer-events-none">
+          <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent p-4 sm:p-8 flex flex-col justify-between pointer-events-none">
             <div className="space-y-1 sm:space-y-2">
               <h1 className="text-2xl sm:text-6xl font-bold text-white">
                 {mainVideo.title}

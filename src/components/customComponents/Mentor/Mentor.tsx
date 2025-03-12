@@ -31,7 +31,7 @@ const Mentor = () => {
   ];
 
   return (
-    <section className="w-full bg-black">
+    <section className="w-full bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
           {/* Left Section */}
@@ -48,19 +48,19 @@ const Mentor = () => {
                 <p className="text-[#ff0000]">Your Summer Mentor: <br/> Mr Vimal Daga</p>
               </h1>
               
-              <p className={`text-md md:text-2xl text-center md:text-left text-white mb-6 ${poppins.className}`}>
+              <p className={`text-md md:text-2xl text-center md:text-left text-black mb-6 ${poppins.className}`}>
                 Visionary Leader Committed to &quot;Making India Future-Ready&quot;
               </p>
               <div className="grid gap-4">
                 {achievements.map((item, index) => (
                   <Card 
                     key={index} 
-                    className="p-3 bg-gradient-to-r from-[#ff0000] to-black/80 
+                    className="p-3 bg-gradient-to-r from-[#ff0000] to-red/80 
                       border-[#f0c8c8] hover:bg-red-900/90 transition-colors"
                   >
                     <div className="flex items-center gap-3">
-                      <item.icon className="w-6 h-6 text-white" />
-                      <span className={`text-sm sm:text-base font-medium ${poppins.className} text-white`}>
+                      <item.icon className="w-6 h-6 text-black" />
+                      <span className={`text-sm sm:text-base font-medium ${poppins.className} text-black`}>
                         {item.text}
                       </span>
                     </div>
@@ -69,7 +69,7 @@ const Mentor = () => {
               </div>
 
               <blockquote className="text-base sm:text-lg italic mt-8 
-                pl-4 border-l-4 border-[#ff0000] text-white">
+                pl-4 border-l-4 border-[#ff0000] text-black">
                 Mentor to Fortune 500 executives, specializing in knowledge transfer to <br/>
                 <span className="text-[#ff0000] font-medium"> C-level technologists</span> 
                 {" "}across cutting-edge domains.
@@ -87,7 +87,7 @@ const Mentor = () => {
                   group-hover:scale-105 transition-transform duration-300"
               />
               
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent" />
 
               {/* Animated Badges - Visible on all screens */}
               <div className="block">
@@ -109,7 +109,7 @@ const Mentor = () => {
                       border-red-200 shadow-xl transform hover:scale-105 
                       transition-transform">
                       <div className="bg-[#ff0000] p-1.5 rounded-full">
-                        <transfer.logo className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
+                        <transfer.logo className="w-3 h-3 sm:w-4 sm:h-4 text-black" />
                       </div>
                       <div className="text-white">
                         <div className="text-xs sm:text-sm font-medium text-[#ff0000]">

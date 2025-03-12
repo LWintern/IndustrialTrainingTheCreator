@@ -57,14 +57,14 @@ const Lens = ({
 // Rays Component
 const Rays = () => (
   <div className="absolute inset-0 pointer-events-none">
-    <div className="absolute inset-0 opacity-0 bg-gradient-to-br from-blue-500/20 via-transparent to-purple-500/20" />
+    <div className="absolute inset-0 opacity-0 bg-gradient-to-r from-[#520000] via-[#710000] to-[#a50000]" />
   </div>
 );
 
 // Beams Component
 const Beams = () => (
   <div className="absolute inset-0 pointer-events-none">
-    <div className="absolute inset-0 opacity-0 bg-gradient-to-br from-blue-500/20 via-transparent to-purple-500/20" />
+    <div className="absolute inset-0 opacity-0 bg-gradient-to-r from-[#520000] via-[#710000] to-[#a50000]" />
   </div>
 );
 
@@ -174,7 +174,7 @@ export function MentorScroll() {
     <div className='relative'>
       <div className="container max-w-6xl mx-auto px-4 py-8 md:py-4 lg:py-4">
         <div className="text-center mb-4">
-          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-black mb-4">
             <span className='text-[#ff0000]'>World Record Holder - </span> <br className='md:hidden sm:block'/>Mr Vimal Daga
           </h1>
         </div>
@@ -210,7 +210,7 @@ export function MentorScroll() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: Math.min(index * 0.1, 1) }}
-                className="w-[300px] flex-shrink-0 relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#1D2235] to-[#121318] p-2"
+                className="w-[300px] flex-shrink-0 relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#520000] via-[#710000] to-[#a50000] p-2"
                 style={{ scrollSnapAlign: 'start' }}
               >
                 <Rays />
@@ -232,7 +232,7 @@ export function MentorScroll() {
                     </div>
                   </Lens>
                   <div className="py-2 px-2 relative z-20">
-                    <h2 className={`text-[#ff0000] text-lg text-bold ${khandFont.className}`}>
+                    <h2 className={`text-[#ffffff] text-lg text-bold ${khandFont.className}`}>
                       {card.title}
                     </h2>
                     <p className={`text-neutral-200 mt-1 text-sm ${poppins.className}`}>

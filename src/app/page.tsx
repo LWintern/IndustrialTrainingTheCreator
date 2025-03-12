@@ -52,7 +52,8 @@ export default function Home() {
 <Awards/>
 <TopLeaders/>
 <Community/>
-<Projets/>
+{/* <Projets/> */}
+
 <Map/>
 {/* <Gallery/> */}
 <BentoGallery/>

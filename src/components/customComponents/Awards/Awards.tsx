@@ -8,8 +8,8 @@ const poppins = Poppins({
 const Award = () => {
   return (
     <div className='hidden md:block max-w-6xl mx-auto py-12 md:py-12'>
-      <div className="w-full max-w-5xl mx-auto bg-black px-4 sm:px-12">
-        <Card className="relative bg-white shadow-lg rounded-[40px] px-2 sm:px-6 md:px-10 py-4 sm:h-[140px] min-h-[200px] sm:min-h-0">
+      <div className="w-full max-w-5xl mx-auto bg-white px-4 sm:px-12">
+        <Card className="relative bg-gradient-to-r from-[#520000] via-[#710000] to-[#a50000] shadow-lg rounded-[40px] px-2 sm:px-6 md:px-10 py-4 sm:h-[140px] min-h-[200px] sm:min-h-0">
           <div className="flex flex-col sm:flex-row items-center  h-full w-full pt-16 sm:pt-0"> {/* Changed to justify-center */}
             {/* Left Section */}
             <div className="flex justify-center items-center flex-col gap-3 z-10 mt-8 sm:mt-0">
@@ -25,7 +25,7 @@ const Award = () => {
 
             {/* Center Section */}
             <div className="flex flex-col text-center sm:text-left mx-6 z-10 mt-2 sm:mt-0"> {/* Added mx-auto, removed sm:ml-8 sm:mr-auto */}
-              <h2 className="text-[#000000] text-[20px] sm:text-2xl md:text-4xl px-2 sm:px-4 font-bold  leading-tight text-center">
+              <h2 className="text-[#ffffff] text-[20px] sm:text-2xl md:text-4xl px-2 sm:px-4 font-bold  leading-tight text-center">
                 <span className='text-[#ff0000] '>Awarded as #1 </span> <br/>
                 {/* <br className="hidden sm:block"/> */}
                 <span className=""> </span>
@@ -44,7 +44,7 @@ const Award = () => {
                 />
               </div>
 {/* for mobile */}
-              <div className="relative sm:block w-[300px] -ml-20 h-[175px] z-30 md:hidden  border-white">
+              <div className="relative sm:block w-[300px] -ml-20 h-[175px] z-30 md:hidden  border-black">
                 <img
                   className='relative w-full h-full object-fit'
                   src='/assets/Award/awardMobile.png'

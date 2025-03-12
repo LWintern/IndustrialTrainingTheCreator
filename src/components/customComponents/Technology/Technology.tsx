@@ -35,13 +35,13 @@ const item = {
 
 export default function TechStack() {
   return (
-    <section className="container bg-black mx-auto px-4 py-2 md:py-8">
+    <section className="container bg-white mx-auto px-4 py-2 md:py-8">
       <div className="grid mx-auto gap-8  lg:grid-cols-2 lg:gap-12 items-center max-w-6xl">
         <div className="space-y-4 w-full mx-auto">
-          <h1 className="text-3xl text-[#ff0000] font-bold tracking-tight text-center sm:text-left lg:text-4xl">
+          <h1 className="text-3xl text-[#4c3535] font-bold tracking-tight text-center sm:text-left lg:text-4xl">
             Learn, Research, Integrate & Build  Live Summer Project
           </h1>
-          <p className={`text-sm md:text-2xl  text-white hidden sm:block ${poppins.className}`}>
+          <p className={`text-sm md:text-2xl  text-black hidden sm:block ${poppins.className}`}>
             Master modern technologies through hands-on experience with industry-standard tools and frameworks.
           </p>
         </div>
