@@ -37,6 +37,7 @@ import RecapPreviousYear from "@/components/customComponents/recap-previous-year
 import SupportContact from "@/components/customComponents/Support/Support";
 // import MobileGallery from "@/components/customComponents/Gallery/MobileGallery";
 import BentoGallery from "@/components/customComponents/Gallery/Gallery";
+import KeyOutcomes from "@/components/customComponents/Modules/KeyOutcomes";
 // import Timeline from "@/components/customComponents/levels/LearningPath/TimeLine";
 export default function Home() {
   return (
@@ -53,6 +54,7 @@ export default function Home() {
 <TopLeaders/>
 <Community/>
 {/* <Projets/> */}
+<KeyOutcomes/>
 
 <Map/>
 {/* <Gallery/> */}
