@@ -88,8 +88,8 @@ export default function OutComeGallary() {
   }, [isModalOpen, handleOutsideClick]); // Ensure handleOutsideClick is referenced correctly
 
   return (
-    <div className="flex flex-col bg-black items-center" id="gallery">
-      <h2 className="text-4xl font-bold text-white text-center mb-0 mt-12"><span className="text-[#ff0000]">Glimpse of JAZBAA 1.0, JAZBAA 2.0 & JAZBAA 3.0 </span> </h2>
+    <div className="flex flex-col bg-white items-center" id="gallery">
+      <h2 className="text-4xl font-bold text-black text-center mb-0 mt-12"><span className="text-[#ff0000]">Glimpse of JAZBAA 1.0, JAZBAA 2.0 & JAZBAA 3.0 </span> </h2>
       {/* <div className="h-1 w-16 bg-red-500 mt-2 mb-6 mx-auto"></div> */}
       <br></br>
       <div className="relative w-full max-w-6xl flex overflow-hidden justify-center">
@@ -136,7 +136,7 @@ export default function OutComeGallary() {
 
       {/* Modal for larger image view */}
       {isModalOpen && selectedImage && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 flex justify-center items-center z-50">
+        <div className="fixed top-0 left-0 w-full h-full bg-white bg-opacity-70 flex justify-center items-center z-50">
           <div
             ref={modalRef}
             className="relative max-w-3xl max-h-[90%]  bg-white rounded-md"

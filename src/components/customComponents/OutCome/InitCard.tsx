@@ -10,7 +10,7 @@ const poppins = Poppins({
 export default function InitCard() {
   return (
     
-    <Card className="w-full max-w-sm bg-zinc-900 text-white">
+    <Card className="w-full max-w-sm bg-white text-black">
       <CardContent className="pt-6 space-y-6">
         <div className="space-y-2 text-center">
           <h2 className="text-2xl text-[#ff0000] font-semibold">INIT</h2>
@@ -23,7 +23,7 @@ export default function InitCard() {
           </div>
         </div>
 
-        <p className={`text-center text-gray-300 text-sm leading-relaxed ${poppins.className}`}>
+        <p className={`text-center text-gray-700 text-sm leading-relaxed ${poppins.className}`}>
           {`An unique placement platform where it is “Each Day, One Core Tech Based Company ` } 
   
 

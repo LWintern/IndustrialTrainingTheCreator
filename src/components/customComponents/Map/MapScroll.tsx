@@ -16,14 +16,14 @@ const MapScroll = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden bg-black">
+    <div className="relative overflow-hidden bg-white">
       <div className="w-full overflow-hidden whitespace-nowrap">
         {/* First Scroll Section */}
         <div className="inline-flex items-center animate-scroll w-max">
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="mx-4 w-48 flex-shrink-0 border border-gray-200 rounded-lg shadow-md p-[2px] hover:scale-105 transition-transform duration-300 bg-black"
+              className="mx-4 w-48 flex-shrink-0 border border-gray-500 rounded-lg shadow-md p-[2px] hover:scale-105 transition-transform duration-300 bg-black"
             >
               <div className="w-full h-full flex items-center justify-center">
                 <Image 
@@ -43,7 +43,7 @@ const MapScroll = () => {
           {logos.map((logo, index) => (
             <div
               key={`duplicate-${index}`}
-              className="mx-4 w-48 flex-shrink-0 border border-gray-200 rounded-lg shadow-md p-[2px] hover:scale-105 transition-transform duration-300 bg-black"
+              className="mx-4 w-48 flex-shrink-0 border border-gray-400 rounded-lg shadow-md p-[2px] hover:scale-105 transition-transform duration-300 bg-black"
             >
               <div className="w-full h-full flex items-center object-fit justify-center">
                 <Image 

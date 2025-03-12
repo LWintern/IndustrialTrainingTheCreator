@@ -154,9 +154,9 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="min-full bg-[#000000] p-">
+    <div className="min-full bg-[#ffffff] p-">
       <motion.div 
-        className="md:max-w-6xl max-w-full px-2 md:px-8 mx-auto bg-[#111111] border border-gray-700 rounded-xl shadow-2xl relative pt-10 pb-10"
+        className="md:max-w-6xl max-w-full px-2 md:px-8 mx-auto bg-gradient-to-r from-[#520000] via-[#710000] to-[#a50000] border border-gray-700 rounded-xl shadow-2xl relative pt-10 pb-10"
         ref={containerRef}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

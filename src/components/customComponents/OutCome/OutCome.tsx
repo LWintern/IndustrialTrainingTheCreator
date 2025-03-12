@@ -10,7 +10,7 @@ export function OutCome() {
         <div 
           className="w-full relative rounded-xl h-[1000px] md:h-[600px] bg-fixed bg-cover bg-center min-h-full overflow-hidden bg-[url(/assets/outCome/backOutCome.jpg)]"
         >
-          <div className="absolute inset-0 bg-black opacity-80"></div>
+          <div className="absolute inset-0 bg-white opacity-80"></div>
           
           <div className="flex flex-col items-center justify-center py-12 md:py-16 relative z-10">
 

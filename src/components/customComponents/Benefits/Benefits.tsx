@@ -66,15 +66,15 @@ const benefitsData = [
 
 export default function Benefits() {
   return (
-    <section className="bg-[#000000] pt-24 pb " id="Benefits">
+    <section className="bg-[#ffffff] pt-24 pb " id="Benefits">
       <div className="max-w-6xl mx-auto px-2">
-        <div className="bg-[#111111] border border-gray-700 rounded-xl shadow-2xl p-6">
+        <div className="bg-gradient-to-r from-[#520000] via-[#710000] to-[#a50000] border border-gray-700 rounded-xl shadow-2xl p-6">
           {/* Header Section */}
           <div className="text-center mb-12">
             <h1 className="text-3xl md:text-4xl  text-[#ff0000] ">
               Benefits of Summer Program 2025
             </h1>
-            <h2 className={`text-lg md:text:3xl text-white ${poppins.className} mb-6`}>
+            <h2 className={`text-lg md:text:3xl text-black ${poppins.className} mb-6`}>
               Learn with Engineering students from Across India
             </h2>
           </div>
@@ -95,7 +95,7 @@ export default function Benefits() {
                 />
                 
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/80" />
+                <div className="absolute inset-0 bg-[#ffffff]" />
                 
                 {/* Content */}
                 <div className="relative z-10">
@@ -105,14 +105,14 @@ export default function Benefits() {
 
                   
                     </div>
-                    <div className="text-lg text-gray-200"> 
+                    <div className="text-lg text-gray-400"> 
                       {benefit.subtitle}
                     </div> 
                     
                   </CardHeader>
                   <CardContent className="text-center">
-                    <h3 className="text-white font-semibold">{benefit.detail}</h3>
-                    <p className={`text-gray-200 text-sm md:text-md mt-2 ${poppins.className}`}>{benefit.description}</p>
+                    <h3 className="text-black font-semibold">{benefit.detail}</h3>
+                    <p className={`text-gray-500 text-sm md:text-md mt-2 ${poppins.className}`}>{benefit.description}</p>
                   </CardContent>
                 </div>
               </Card>
@@ -135,7 +135,7 @@ export default function Benefits() {
                 />
                 
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/80" />
+                <div className="absolute inset-0 bg-[#ffffff]" />
                 
                 {/* Content */}
                 <div className="relative z-10">
@@ -147,8 +147,8 @@ export default function Benefits() {
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="text-center">
-                    <h3 className="text-white font-semibold">{benefit.detail}</h3>
-                    <p className={`text-gray-200 mt-2 text-sm md:text-md ${poppins.className}`}>{benefit.description}</p>
+                    <h3 className="text-black font-semibold">{benefit.detail}</h3>
+                    <p className={`text-gray-500 mt-2 text-sm md:text-md ${poppins.className}`}>{benefit.description}</p>
                   </CardContent>
                 </div>
               </Card>
